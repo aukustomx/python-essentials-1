@@ -16,5 +16,8 @@ def fibonacci(n):
     return result
 
 # Testing
-for i in range(1, 10):
-    print(i, fibonacci(i))
+#for i in range(1, 10):
+#    print(i, fibonacci(i))
+
+number = int(input("Enter the number to calculate its Fibonacci: "))
+print("Fibonacci of", number, "is", fibonacci(number))
